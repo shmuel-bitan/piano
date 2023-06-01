@@ -15,8 +15,10 @@ body {
 }
 .container{
     display: flex;
+    flex-direction: column;
 }
 .wrapper , .ajuster{
+    margin-top: 10px;
   padding: 35px 40px;
   border-radius: 20px;
   background: #141414;
@@ -160,6 +162,6 @@ header input {
     display: none;
   }*/
   .piano-keys .white {
-    width: 50px;
+    width: 45px;
   }
 }
