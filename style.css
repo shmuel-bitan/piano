@@ -137,9 +137,9 @@ header input {
   .piano-keys {
     margin-top: 20px;
   }
-  .piano-keys .key:where(:nth-child(9), :nth-child(10)) {
+ /* .piano-keys .key:where(:nth-child(9), :nth-child(10)) {
     display: none;
-  }
+  }*/
   .piano-keys .black {
     height: 100px;
     width: 40px;
@@ -151,14 +151,14 @@ header input {
   }
 }
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 615px) {/*
   .piano-keys .key:nth-child(13),
   .piano-keys .key:nth-child(14),
   .piano-keys .key:nth-child(15),
   .piano-keys .key:nth-child(16),
   .piano-keys .key :nth-child(17) {
     display: none;
-  }
+  }*/
   .piano-keys .white {
     width: 50px;
   }
