@@ -42,6 +42,25 @@ const pressedKey = (e) => {
         for (var i = 0; i < elements.length; i++) {
          elements[i].style.background = "blue";
         }
+        
+        };
+        function nahawand() {
+            var elements = document.getElementsByClassName("nahawand");
+            for (var i = 0; i < elements.length; i++) {
+             elements[i].style.background = " rgb(2,0,36)";
+            }
+        };
+        function kurd() {
+            var elements = document.getElementsByClassName("kurd");
+            for (var i = 0; i < elements.length; i++) {
+             elements[i].style.background = " green";
+            }
+        };
+        function ajam() {
+            var elements = document.getElementsByClassName("ajam");
+            for (var i = 0; i < elements.length; i++) {
+             elements[i].style.background = " linear-gradient(red, yellow)";
+            }
         };
         function hide() {
             var elements = document.getElementsByClassName("black");
