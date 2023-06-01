@@ -8,35 +8,42 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h2>PIANO</h2>
-        <div class="column volume-slider">
-          <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
+    <div class="container">
+        <div class ="ajuster">
+            <button class="button" type="submit" name="button" onclick="hijaz()">hijaz</button>
+            <button class="button" type="submit" name="button" onclick=" hide()">cacher la gamme</button>
         </div>
-        <div class="column keys-checkbox">
-          <span>montrer le nom des touches </span><input type="checkbox" checked>
+        <div class="wrapper">
+        <header>
+            <h2>PIANO</h2>
+            <div class="column volume-slider">
+            <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
+            </div>
+            <div class="column keys-checkbox">
+            <span>montrer le nom des touches </span><input type="checkbox" checked>
+            </div>
+            
+        </header>
+        <ul class="piano-keys">
+            <li class="key white do1" data-key="a"><span>do</span></li>
+            <li class="key black do#1" data-key="w"><span>do#</span></li>
+            <li class="key white re1 hijaz" data-key="s"><span>ré</span></li>
+            <li class="key black re#1 hijaz" data-key="e"><span>ré#</span></li>
+            <li class="key white mi1" data-key="d"><span>mi</span></li>
+            <li class="key white fa1" data-key="f"><span>fa</span></li>
+            <li class="key black fa#1 hijaz" data-key="t"><span>fa#</span></li>
+            <li class="key white sol1 hijaz" data-key="g"><span>sol</span></li>
+            <li class="key black sol#1" data-key="y"><span>sol#</span></li>
+            <li class="key white la1 hijaz" data-key="h"><span>la</span></li>
+            <li class="key black la#1 hijaz" data-key="u"><span>la#</span></li>
+            <li class="key white si1" data-key="j"><span>si</span></li>
+            <li class="key white do2" data-key="k"><span>do</span></li>
+            <li class="key black do#2 hijaz" data-key="o"><span>do#</span></li>
+            <li class="key white re2 hijaz" data-key="l"><span>ré</span></li>
+            <li class="key black re#2" data-key="p"><span>ré#</span></li>
+            <li class="key white mi2" data-key=";"><span>mi</span></li>
+        </ul>
         </div>
-      </header>
-      <ul class="piano-keys">
-        <li class="key white" data-key="a"><span>do</span></li>
-        <li class="key black" data-key="w"><span>do#</span></li>
-        <li class="key white" data-key="s"><span>ré</span></li>
-        <li class="key black" data-key="e"><span>ré#</span></li>
-        <li class="key white" data-key="d"><span>mi</span></li>
-        <li class="key white" data-key="f"><span>fa</span></li>
-        <li class="key black" data-key="t"><span>fa#</span></li>
-        <li class="key white" data-key="g"><span>sol</span></li>
-        <li class="key black" data-key="y"><span>sol#</span></li>
-        <li class="key white" data-key="h"><span>la</span></li>
-        <li class="key black" data-key="u"><span>la#</span></li>
-        <li class="key white" data-key="j"><span>si</span></li>
-        <li class="key white" data-key="k"><span>do</span></li>
-        <li class="key black" data-key="o"><span>do#</span></li>
-        <li class="key white" data-key="l"><span>ré</span></li>
-        <li class="key black" data-key="p"><span>ré#</span></li>
-        <li class="key white" data-key=";"><span>mi</span></li>
-      </ul>
     </div>
   </body>
 </html>

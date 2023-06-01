@@ -28,6 +28,31 @@ const pressedKey = (e) => {
     // if the pressed key is in the allKeys array, only call the playTune function
     if(allKeys.includes(e.key)) playTune(e.key);
 }
+/*function test(hijaz) {
+   //on utilise notre fonction pour recuperer un tableau de tous les elements contenant la class souhaiter
+  var classes = getElementsByClassName(hijaz);
+     
+   //on modifie les elements recuperer dans le tableau
+   for(var i=0, len = classes.length; i < len; i++){
+       classes[i].style.background = "red";
+   }
+    };*/
+    function hijaz() {
+        var elements = document.getElementsByClassName("hijaz");
+        for (var i = 0; i < elements.length; i++) {
+         elements[i].style.background = "blue";
+        }
+        };
+        function hide() {
+            var elements = document.getElementsByClassName("black");
+            for (var i = 0; i < elements.length; i++) {
+             elements[i].style.background = "linear-gradient(#333, #000)";
+            }
+            var elements = document.getElementsByClassName("white");
+            for (var i = 0; i < elements.length; i++) {
+             elements[i].style.background = "linear-gradient(#fff 96%, #eee 4%)";
+            }
+            };
 keysCheckbox.addEventListener("click", showHideKeys);
 volumeSlider.addEventListener("input", handleVolume);
 document.addEventListener("keydown", pressedKey);
