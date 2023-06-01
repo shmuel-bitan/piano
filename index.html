@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>piano en ligne shmuel bitan</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>PIANO</h2>
+        <div class="column volume-slider">
+          <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
+        </div>
+        <div class="column keys-checkbox">
+          <span>montrer le nom des touches </span><input type="checkbox" checked>
+        </div>
+      </header>
+      <ul class="piano-keys">
+        <li class="key white" data-key="a"><span>do</span></li>
+        <li class="key black" data-key="w"><span>do#</span></li>
+        <li class="key white" data-key="s"><span>ré</span></li>
+        <li class="key black" data-key="e"><span>ré#</span></li>
+        <li class="key white" data-key="d"><span>mi</span></li>
+        <li class="key white" data-key="f"><span>fa</span></li>
+        <li class="key black" data-key="t"><span>fa#</span></li>
+        <li class="key white" data-key="g"><span>sol</span></li>
+        <li class="key black" data-key="y"><span>sol#</span></li>
+        <li class="key white" data-key="h"><span>la</span></li>
+        <li class="key black" data-key="u"><span>la#</span></li>
+        <li class="key white" data-key="j"><span>si</span></li>
+        <li class="key white" data-key="k"><span>do</span></li>
+        <li class="key black" data-key="o"><span>do#</span></li>
+        <li class="key white" data-key="l"><span>ré</span></li>
+        <li class="key black" data-key="p"><span>ré#</span></li>
+        <li class="key white" data-key=";"><span>mi</span></li>
+      </ul>
+    </div>
+  </body>
+</html>
