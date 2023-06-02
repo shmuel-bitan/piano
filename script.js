@@ -62,7 +62,21 @@ const pressedKey = (e) => {
              elements[i].style.background = " linear-gradient(red, yellow)";
             }
         };
+        function bayat() {
+            var elements = document.getElementsByClassName("quart mi");
+            for (var i = 0; i < elements.length; i++) {
+             elements[i].style.display = "unset";
+            }
+            var elements = document.getElementsByClassName("bayat");
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].style.background = " linear-gradient(blue, yellow)";
+            }
+        };
         function hide() {
+            var elements = document.getElementsByClassName("quart");
+            for (var i = 0; i < elements.length; i++) {
+             elements[i].style.display = "none";
+            }
             var elements = document.getElementsByClassName("black");
             for (var i = 0; i < elements.length; i++) {
              elements[i].style.background = "linear-gradient(#333, #000)";
